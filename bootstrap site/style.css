@@ -1,0 +1,29 @@
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.carousel-item{
+    height: 350px;
+}
+.card{
+    position: relative;
+}
+
+.card .btn{
+    display: block;
+}
+
+#two .card{
+    width: ½25;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    transition: 0.6sn;
+    z-index: 1;
+    box-shadow: 15px 15px 8px grey;
+    border-radius: 5px;   
+}
+

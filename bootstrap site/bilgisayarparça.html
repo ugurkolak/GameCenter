@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="GameCenter.html">GameCenter</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="GameCenter.html">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="hazırsistem.html">Hazır Sistemler</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Laptoplar.html">Laptoplar</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Katagoriler
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="bilgisayarparça.html">Bilgisayar Parçaları</a></li>
+                    <li><a class="dropdown-item" href="monitor.html">Monitörler</a></li>
+                    <li><a class="dropdown-item" href="çevrebirim.html">Çevre Birimleri</a></li>
+                    <li><a class="dropdown-item" href="ofisürün.html">Yazıcılar</a></li>
+                    </ul>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar bitiş -->
+        <div class="row">
+          <div class="col-md">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href=""><img src="resim/ana sayfa/1380x310-53d323.jpg" class="d-block w-100" alt="..."></a>
+                </div>
+                <div class="carousel-item">
+                  <a href=""><img src="resim/ana sayfa/amdhalo-1-fc0443-11d17d.jpg" class="d-block w-100" alt="..."></a>
+                </div>
+                <div class="carousel-item">
+                  <a href=""><img src="resim/ana sayfa/itopya-pba-general-2-2c55f4-ee0eab.jpg" class="d-block w-100" alt="..."></a>
+                </div>
+                <div class="carousel-item">
+                  <a href=""><img src="resim/ana sayfa/nvdbilgisayarlar-19b6bd-e83c88.jpg" class="d-block w-100" alt="..."></a>
+                </div>
+                <div class="carousel-item">
+                  <a href=""><img src="resim/ana sayfa/itopya_rtx40_1380x310-ec728f.jpg" class="d-block w-100" alt="..."></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+            <!-- slider bitiş -->
+            <h2>Ekran Kartları</h2>
+            <a href=""><h6>tümünü gör</h6></a>
+            <section style="background-color: #eee;">
+                <div class="container py-5">
+                  <div class="row">
+                    <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+                      <div class="card">
+                        <div class="d-flex justify-content-between p-3">
+                          <p class="lead mb-0">GameCenter</p>
+                          <div
+                            class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                            style="width: 35px; height: 35px;">
+                            <p class="text-white mb-0 small">⬇️</p>
+                          </div>
+                        </div>
+                        <img src="resim/aksesuarlar/yeni-proje-2023-05-25t145817222-a9fd58.jpg"
+                          class="card-img-top" alt="Laptop" />
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+                            <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                            <p class="small text-danger"><s>2499$</s></p>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-3">
+                            <h5 class="mb-0">RX 7600</h5>
+                            <h5 class="text-dark mb-0">$499</h5>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-2">
+                            <p class="text-muted mb-0">Stokta: <span class="fw-bold">6</span></p>
+                            <div class="ms-auto text-warning">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                      <div class="card">
+                        <div class="d-flex justify-content-between p-3">
+                          <p class="lead mb-0">GameCenter</p>
+                          <div
+                            class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                            style="width: 35px; height: 35px;">
+                            <p class="text-white mb-0 small">yeni</p>
+                          </div>
+                        </div>
+                        <img src="resim/aksesuarlar/yeni-proje-2023-10-10t165654429-4a0272.jpg"
+                          class="card-img-top" alt="Laptop" />
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+                            <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                            <p class="small text-danger"><s>$1279</s></p>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-3">
+                            <h5 class="mb-0">RTX 4070ti</h5>
+                            <h5 class="text-dark mb-0">$399</h5>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-2">
+                            <p class="text-muted mb-0">Stokta: <span class="fw-bold">7</span></p>
+                            <div class="ms-auto text-warning">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                      <div class="card">
+                        <div class="d-flex justify-content-between p-3">
+                          <p class="lead mb-0">GameCenter</p>
+                          <div
+                            class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                            style="width: 35px; height: 35px;">
+                            <p class="text-white mb-0 small">⬇️</p>
+                          </div>
+                        </div>
+                        <img src="resim/aksesuarlar/yeni-proje-2023-12-14t131949060-e9aa59.jpg"
+                          class="card-img-top" alt="Gaming Laptop" />
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+                            <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                            <p class="small text-danger"><s>$2499</s></p>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-3">
+                            <h5 class="mb-0">RTX 4090</h5>
+                            <h5 class="text-dark mb-0">$499</h5>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-2">
+                            <p class="text-muted mb-0">Stokta: <span class="fw-bold">5</span></p>
+                            <div class="ms-auto text-warning">
+                              <i class="fa fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <h2>İşlemciler</h2>
+              <a href=""><h6>tümünü gör</h6></a>
+              <section style="background-color: #eee;">
+                <div class="container py-5">
+                  <div class="row">
+                    <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+                      <div class="card">
+                        <div class="d-flex justify-content-between p-3">
+                          <p class="lead mb-0">GameCenter</p>
+                          <div
+                            class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                            style="width: 35px; height: 35px;">
+                            <p class="text-white mb-0 small">⬇️</p>
+                          </div>
+                        </div>
+                        <img src="resim/aksesuarlar/yeni-proje-2023-12-04t123534328-985387.jpg"
+                          class="card-img-top" alt="Laptop" />
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+                            <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                            <p class="small text-danger"><s>$349</s></p>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-3">
+                            <h5 class="mb-0">AMD Threadripper</h5>
+                            <h5 class="text-dark mb-0">$279</h5>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-2">
+                            <p class="text-muted mb-0">Stokta: <span class="fw-bold">6</span></p>
+                            <div class="ms-auto text-warning">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                      <div class="card">
+                        <div class="d-flex justify-content-between p-3">
+                          <p class="lead mb-0">GameCenter</p>
+                          <div
+                            class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                            style="width: 35px; height: 35px;">
+                            <p class="text-white mb-0 small">yeni</p>
+                          </div>
+                        </div>
+                        <img src="resim/aksesuarlar/yeni-proje-2023-10-17t132847660-401bc5.jpg"
+                          class="card-img-top" alt="Laptop" />
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+                            <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                            <p class="small text-danger"><s>$1279</s></p>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-3">
+                            <h5 class="mb-0">İntel İ7</h5>
+                            <h5 class="text-dark mb-0">$349</h5>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-2">
+                            <p class="text-muted mb-0">Stokta: <span class="fw-bold">7</span></p>
+                            <div class="ms-auto text-warning">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                      <div class="card">
+                        <div class="d-flex justify-content-between p-3">
+                          <p class="lead mb-0">GameCenter</p>
+                          <div
+                            class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                            style="width: 35px; height: 35px;">
+                            <p class="text-white mb-0 small">⬇️</p>
+                          </div>
+                        </div>
+                        <img src="resim/aksesuarlar/yeni-proje-2023-02-23t163236081-4615ec.jpg"
+                          class="card-img-top" alt="Gaming Laptop" />
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+                            <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                            <p class="small text-danger"><s>$2099</s></p>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-3">
+                            <h5 class="mb-0">Ryzen 9</h5>
+                            <h5 class="text-dark mb-0">$499</h5>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-2">
+                            <p class="text-muted mb-0">Stokta: <span class="fw-bold">5</span></p>
+                            <div class="ms-auto text-warning">
+                              <i class="fa fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <h2>Ramler</h2>
+              <a href=""><h6>tümünü gör</h6></a>
+              <section style="background-color: #eee;">
+                <div class="container py-5">
+                  <div class="row">
+                    <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+                      <div class="card">
+                        <div class="d-flex justify-content-between p-3">
+                          <p class="lead mb-0">GameCenter</p>
+                          <div
+                            class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                            style="width: 35px; height: 35px;">
+                            <p class="text-white mb-0 small">yeni</p>
+                          </div>
+                        </div>
+                        <img src="resim/aksesuarlar/ema-bf59c5.jpg"
+                          class="card-img-top" alt="Laptop" />
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+                            <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                            <p class="small text-danger"><s>$279</s></p>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-3">
+                            <h5 class="mb-0">RDM 32gb(16x2)</h5>
+                            <h5 class="text-dark mb-0">$199</h5>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-2">
+                            <p class="text-muted mb-0">Stokta: <span class="fw-bold">6</span></p>
+                            <div class="ms-auto text-warning">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                      <div class="card">
+                        <div class="d-flex justify-content-between p-3">
+                          <p class="lead mb-0">GameCenter</p>
+                          <div
+                            class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                            style="width: 35px; height: 35px;">
+                            <p class="text-white mb-0 small">yeni</p>
+                          </div>
+                        </div>
+                        <img src="resim/aksesuarlar/yeni-proje-2023-11-08t094806301-c4811a.jpg"
+                          class="card-img-top" alt="Laptop" />
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+                            <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                            <p class="small text-danger"><s>$2099</s></p>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-3">
+                            <h5 class="mb-0">RDM White 64gb(32x2)</h5>
+                            <h5 class="text-dark mb-0">$279</h5>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-2">
+                            <p class="text-muted mb-0">Stokta: <span class="fw-bold">7</span></p>
+                            <div class="ms-auto text-warning">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                      <div class="card">
+                        <div class="d-flex justify-content-between p-3">
+                          <p class="lead mb-0">GameCenter</p>
+                          <div
+                            class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                            style="width: 35px; height: 35px;">
+                            <p class="text-white mb-0 small">⬇️</p>
+                          </div>
+                        </div>
+                        <img src="resim/aksesuarlar/yeni-proje-2023-12-06t091919228-18f74f.jpg"
+                          class="card-img-top" alt="Gaming Laptop" />
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+                            <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                            <p class="small text-danger"><s>$2099</s></p>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-3">
+                            <h5 class="mb-0">Trident 16gb(8x2)</h5>
+                            <h5 class="text-dark mb-0">$199</h5>
+                          </div>
+              
+                          <div class="d-flex justify-content-between mb-2">
+                            <p class="text-muted mb-0">Stokta: <span class="fw-bold">5</span></p>
+                            <div class="ms-auto text-warning">
+                              <i class="fa fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <h2>Ana Kartlar</h2>
+              <a href=""><h6>tümünü gör</h6></a>
+              <section style="background-color: #eee;">
+                  <div class="container py-5">
+                    <div class="row">
+                      <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+                        <div class="card">
+                          <div class="d-flex justify-content-between p-3">
+                            <p class="lead mb-0">GameCenter</p>
+                            <div
+                              class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                              style="width: 35px; height: 35px;">
+                              <p class="text-white mb-0 small">⬇️</p>
+                            </div>
+                          </div>
+                          <img src="resim/aksesuarlar/1.jpg"
+                            class="card-img-top" alt="Laptop" />
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                              <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                              <p class="small text-danger"><s>2499$</s></p>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-3">
+                              <h5 class="mb-0">MSİ B450M</h5>
+                              <h5 class="text-dark mb-0">$499</h5>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-2">
+                              <p class="text-muted mb-0">Stokta: <span class="fw-bold">6</span></p>
+                              <div class="ms-auto text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                        <div class="card">
+                          <div class="d-flex justify-content-between p-3">
+                            <p class="lead mb-0">GameCenter</p>
+                            <div
+                              class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                              style="width: 35px; height: 35px;">
+                              <p class="text-white mb-0 small">yeni</p>
+                            </div>
+                          </div>
+                          <img src="resim/aksesuarlar/2.jpg"
+                            class="card-img-top" alt="Laptop" />
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                              <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                              <p class="small text-danger"><s>$1279</s></p>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-3">
+                              <h5 class="mb-0">MSI PRO Z790</h5>
+                              <h5 class="text-dark mb-0">$399</h5>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-2">
+                              <p class="text-muted mb-0">Stokta: <span class="fw-bold">7</span></p>
+                              <div class="ms-auto text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                        <div class="card">
+                          <div class="d-flex justify-content-between p-3">
+                            <p class="lead mb-0">GameCenter</p>
+                            <div
+                              class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                              style="width: 35px; height: 35px;">
+                              <p class="text-white mb-0 small">⬇️</p>
+                            </div>
+                          </div>
+                          <img src="resim/aksesuarlar/3.jpg"
+                            class="card-img-top" alt="Gaming Laptop" />
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                              <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                              <p class="small text-danger"><s>$2499</s></p>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-3">
+                              <h5 class="mb-0">MSI MPG Z790 EDGE </h5>
+                              <h5 class="text-dark mb-0">$499</h5>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-2">
+                              <p class="text-muted mb-0">Stokta: <span class="fw-bold">5</span></p>
+                              <div class="ms-auto text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <h2>SSD-HDD</h2>
+                <a href=""><h6>tümünü gör</h6></a>
+                <section style="background-color: #eee;">
+                  <div class="container py-5">
+                    <div class="row">
+                      <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+                        <div class="card">
+                          <div class="d-flex justify-content-between p-3">
+                            <p class="lead mb-0">GameCenter</p>
+                            <div
+                              class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                              style="width: 35px; height: 35px;">
+                              <p class="text-white mb-0 small">⬇️</p>
+                            </div>
+                          </div>
+                          <img src="resim/aksesuarlar/ssd1.jpg"
+                            class="card-img-top" alt="Laptop" />
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                              <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                              <p class="small text-danger"><s>$349</s></p>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-3">
+                              <h5 class="mb-0">GOODRAM 2TB PX700</h5>
+                              <h5 class="text-dark mb-0">$279</h5>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-2">
+                              <p class="text-muted mb-0">Stokta: <span class="fw-bold">6</span></p>
+                              <div class="ms-auto text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                        <div class="card">
+                          <div class="d-flex justify-content-between p-3">
+                            <p class="lead mb-0">GameCenter</p>
+                            <div
+                              class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                              style="width: 35px; height: 35px;">
+                              <p class="text-white mb-0 small">yeni</p>
+                            </div>
+                          </div>
+                          <img src="resim/aksesuarlar/ssd2.jpg"
+                            class="card-img-top" alt="Laptop" />
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                              <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                              <p class="small text-danger"><s>$1279</s></p>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-3">
+                              <h5 class="mb-0">Samsung 1TB</h5>
+                              <h5 class="text-dark mb-0">$349</h5>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-2">
+                              <p class="text-muted mb-0">Stokta: <span class="fw-bold">7</span></p>
+                              <div class="ms-auto text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                        <div class="card">
+                          <div class="d-flex justify-content-between p-3">
+                            <p class="lead mb-0">GameCenter</p>
+                            <div
+                              class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                              style="width: 35px; height: 35px;">
+                              <p class="text-white mb-0 small">⬇️</p>
+                            </div>
+                          </div>
+                          <img src="resim/aksesuarlar/hdd1.jpg"
+                            class="card-img-top" alt="Gaming Laptop" />
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                              <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                              <p class="small text-danger"><s>$2099</s></p>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-3">
+                              <h5 class="mb-0">Seagate 2TB</h5>
+                              <h5 class="text-dark mb-0">$499</h5>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-2">
+                              <p class="text-muted mb-0">Stokta: <span class="fw-bold">5</span></p>
+                              <div class="ms-auto text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <h2>Güç Kaynakları</h2>
+                <a href=""><h6>tümünü gör</h6></a>
+                <section style="background-color: #eee;">
+                  <div class="container py-5">
+                    <div class="row">
+                      <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+                        <div class="card">
+                          <div class="d-flex justify-content-between p-3">
+                            <p class="lead mb-0">GameCenter</p>
+                            <div
+                              class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                              style="width: 35px; height: 35px;">
+                              <p class="text-white mb-0 small">yeni</p>
+                            </div>
+                          </div>
+                          <img src="resim/aksesuarlar/psu1.jpg"
+                            class="card-img-top" alt="Laptop" />
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                              <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                              <p class="small text-danger"><s>$279</s></p>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-3">
+                              <h5 class="mb-0">asus</h5>
+                              <h5 class="text-dark mb-0">$199</h5>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-2">
+                              <p class="text-muted mb-0">Stokta: <span class="fw-bold">6</span></p>
+                              <div class="ms-auto text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                        <div class="card">
+                          <div class="d-flex justify-content-between p-3">
+                            <p class="lead mb-0">GameCenter</p>
+                            <div
+                              class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                              style="width: 35px; height: 35px;">
+                              <p class="text-white mb-0 small">yeni</p>
+                            </div>
+                          </div>
+                          <img src="resim/aksesuarlar/psu2.jpg"
+                            class="card-img-top" alt="Laptop" />
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                              <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                              <p class="small text-danger"><s>$2099</s></p>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-3">
+                              <h5 class="mb-0">MSİ</h5>
+                              <h5 class="text-dark mb-0">$279</h5>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-2">
+                              <p class="text-muted mb-0">Stokta: <span class="fw-bold">7</span></p>
+                              <div class="ms-auto text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                        <div class="card">
+                          <div class="d-flex justify-content-between p-3">
+                            <p class="lead mb-0">GameCenter</p>
+                            <div
+                              class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                              style="width: 35px; height: 35px;">
+                              <p class="text-white mb-0 small">⬇️</p>
+                            </div>
+                          </div>
+                          <img src="resim/aksesuarlar/psu3.jpg"
+                            class="card-img-top" alt="Gaming Laptop" />
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                              <p class="small"><a href="#!" class="text-muted">Bilgisayar Parçaları</a></p>
+                              <p class="small text-danger"><s>$2099</s></p>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-3">
+                              <h5 class="mb-0">asus</h5>
+                              <h5 class="text-dark mb-0">$199</h5>
+                            </div>
+                
+                            <div class="d-flex justify-content-between mb-2">
+                              <p class="text-muted mb-0">Stokta: <span class="fw-bold">5</span></p>
+                              <div class="ms-auto text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+             
+    </body>
